@@ -1,9 +1,15 @@
 # *
 User-agent: *
+Disallow: /secret
+
+# *
+User-agent: *
 Allow: /
 
 # Host
-Host: http://localhost:3000/
+Host: https://dblceramics.com/en
 
 # Sitemaps
-Sitemap: http://localhost:3000/sitemap.xml
+Sitemap: https://dblceramics.com/en/sitemap.xml
+Sitemap: undefined/sitemap.xml
+Sitemap: undefined/server-sitemap.xml
